@@ -5,4 +5,10 @@ MIGRATIONS:
 Role_User
 
 NOTAS:
-Agregar atributos RequestedBy y AuthorizedBy para indicar el usuario que solicitó la apertura del evento y el que la autorizó.
+- Agregar atributos RequestedBy y AuthorizedBy para indicar el usuario que solicitó la apertura del evento y el que la autorizó.
+- Agregar atributos name y state a tabla semesters. El atributo "state" indicará si el semestre está en vigencia o ya pasó.
+- Contemplar cambio de Semester a Seasons.
+- Cambio de "Realized" a "State" en tabla Event. Tres estados de evento: Realizado, Pendiente o Cancelado.
+- Agregar timestamps a Event, Semester, Role
+
+FLUJO GIT-FLOW
