@@ -1,0 +1,8 @@
+SCAFFOLDS:
+User, Event, Event_Registry, Semester, Historial, Role
+
+MIGRATIONS:
+Role_User
+
+NOTAS:
+Agregar atributos RequestedBy y AuthorizedBy para indicar el usuario que solicitó la apertura del evento y el que la autorizó.
