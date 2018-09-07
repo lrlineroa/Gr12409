@@ -10,3 +10,5 @@ NOTAS:
 - Contemplar cambio de Semester a Seasons.
 - Cambio de "Realized" a "State" en tabla Event. Tres estados de evento: Realizado, Pendiente o Cancelado.
 - Agregar timestamps a Event, Semester, Role
+
+FLUJO GIT-FLOW
