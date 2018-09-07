@@ -2,4 +2,4 @@
 
 Proyecto de la API de la aplicación.
 
-_Por: Mayely Castro y Pedro Miranda_
+_Por: Mayely Mesa y Pedro Miranda_
