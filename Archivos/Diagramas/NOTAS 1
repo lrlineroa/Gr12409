@@ -1,5 +1,5 @@
 SCAFFOLDS:
-User, Event, Event_Registry, Historial, 
+User, Event, Event_Registry, Historial
 
 MIGRATIONS:
 Role_User, Semester, Role

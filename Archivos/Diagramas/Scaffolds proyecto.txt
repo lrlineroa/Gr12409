@@ -1,0 +1,20 @@
+USER
+rails generate scaffold user email:string password_digest phone current_points
+
+ROLE
+rails generate model role name:string
+
+ROLE_USER
+rails generate migration CreateJoinTableRoleUser role user
+
+SEASON
+rails generate model season name:string state:integer
+
+EVENT
+rails generate scaffold event name:string datetime_start:datetime datetime_end:datetime description:text place:string geofence requested_by:integer authorized_by:integer event_points:integer state:integer semester:references
+
+EVENT_REGISTRY
+rails generate model event_registry arrival:datetime departure:datetime won_points:integer user:references event:references
+
+USER_RECORD
+rails generate model user_record season_points:integer user:references season:references
