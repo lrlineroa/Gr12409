@@ -1,5 +1,5 @@
 USER
-rails generate scaffold user email:string password_digest phone current_points
+rails generate scaffold user email:string password_digest phone current_points:integer
 
 ROLE
 rails generate model role name:string
@@ -11,7 +11,7 @@ SEASON
 rails generate model season name:string state:integer
 
 EVENT
-rails generate scaffold event name:string datetime_start:datetime datetime_end:datetime description:text place:string geofence requested_by:integer authorized_by:integer event_points:integer state:integer semester:references
+rails generate scaffold event name:string datetime_start:datetime datetime_end:datetime description:text place:string geofence requested_by:integer authorized_by:integer event_points:integer state:integer season:references
 
 EVENT_REGISTRY
 rails generate model event_registry arrival:datetime departure:datetime won_points:integer user:references event:references

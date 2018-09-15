@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  datetime_start: 2018-09-15 15:45:58
+  datetime_end: 2018-09-15 15:45:58
+  description: MyText
+  place: MyString
+  geofence: MyString
+  requested_by: 1
+  authorized_by: 1
+  event_points: 1
+  state: 1
+  season: one
+
+two:
+  name: MyString
+  datetime_start: 2018-09-15 15:45:58
+  datetime_end: 2018-09-15 15:45:58
+  description: MyText
+  place: MyString
+  geofence: MyString
+  requested_by: 1
+  authorized_by: 1
+  event_points: 1
+  state: 1
+  season: two

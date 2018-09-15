@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  arrival: 2018-09-15 15:46:07
+  departure: 2018-09-15 15:46:07
+  won_points: 1
+  user: one
+  event: one
+
+two:
+  arrival: 2018-09-15 15:46:07
+  departure: 2018-09-15 15:46:07
+  won_points: 1
+  user: two
+  event: two
